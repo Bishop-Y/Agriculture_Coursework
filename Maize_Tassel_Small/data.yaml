@@ -1,0 +1,13 @@
+train: ../Maize_Tassel_Small/train/images
+val: ../Maize_Tassel_Small/valid/images
+test: ../Maize_Tassel_Small/test/images
+
+nc: 1
+names: ['tsl']
+
+roboflow:
+  workspace: maizetassel
+  project: maizetasseldetection
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/maizetassel/maizetasseldetection/dataset/2

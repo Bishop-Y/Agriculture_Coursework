@@ -1,0 +1,13 @@
+train: ../Weed_UAV/train/images
+val: ../Weed_UAV/valid/images
+test: ../Weed_UAV/test/images
+
+nc: 1
+names: ['weeds']
+
+roboflow:
+  workspace: chicory-crop-weeds-5m7vo
+  project: weed-detection-by-uav-416a
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/chicory-crop-weeds-5m7vo/weed-detection-by-uav-416a/dataset/1

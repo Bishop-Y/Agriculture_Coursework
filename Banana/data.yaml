@@ -1,0 +1,13 @@
+train: ../Banana/train/images
+val: ../Banana/valid/images
+test: ../Banana/test/images
+
+nc: 1
+names: ['detection_plants - v1 2024-04-10 8-07pm']
+
+roboflow:
+  workspace: tesis-hpmog
+  project: detection_banana
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tesis-hpmog/detection_banana/dataset/1

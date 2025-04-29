@@ -1,0 +1,13 @@
+train: ../Weed_Grass/train/images
+val: ../Weed_Grass/valid/images
+test: ../Weed_Grass/test/images
+
+nc: 1
+names: ['weed']
+
+roboflow:
+  workspace: z10612025tests
+  project: weed-grass-detection-project
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/z10612025tests/weed-grass-detection-project/dataset/3

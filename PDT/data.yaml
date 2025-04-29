@@ -1,0 +1,15 @@
+#114307 of object
+
+
+#images_size 640 640
+path:   # dataset root dir
+train: ../Pests_and_Diseases_Tree/PDT dataset/PDT dataset/LL/YOLO_txt/train/images  # train images (relative to 'path')  3166+1370 images
+val: ../Pests_and_Diseases_Tree/PDT dataset/PDT dataset/LL/YOLO_txt/val/images  # val images (relative to 'path')  355+172 images
+test: ../Pests_and_Diseases_Tree/PDT dataset/PDT dataset/LL/YOLO_txt/test/images  # test images (optional)  390+ 177 images
+
+# Classes
+nc: 1  # number of classes
+names: ['unhealthy']
+
+
+

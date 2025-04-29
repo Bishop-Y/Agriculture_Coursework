@@ -1,0 +1,13 @@
+train: ../Maize_Tassel_Big/train/images
+val: ../Maize_Tassel_Big/valid/images
+test: ../Maize_Tassel_Big/test/images
+
+nc: 1
+names: ['Tassel']
+
+roboflow:
+  workspace: toothdecay
+  project: groupannotationmaizetasseldataset
+  version: 12
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/toothdecay/groupannotationmaizetasseldataset/dataset/12
